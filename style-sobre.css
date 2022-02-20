@@ -1,0 +1,98 @@
+/* =============  RESET ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =============  BASE ========================= */
+
+body {
+  font-size: 100%;
+  font: 400 1rem 'DM Sans', sans-serif;
+  width: 75%;
+  margin: 15px auto;
+}
+
+/* =============  CABEÇALHO ========================= */
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  padding: 10px;
+}
+
+/* =============  SOBRE ========================= */
+
+.conteudo-sobre {
+  border-top: 0.4px solid #fff2e7;
+}
+
+h2 {
+  margin: 15px 15px;
+}
+
+h1 {
+  font: 700 1.875rem 'Poppins', sans-serif;
+  margin-left: 15px;
+}
+
+p {
+  width: 50%;
+  height: 300px;
+  margin-left: 20px;
+  float: left;
+  margin-bottom: 48px;
+}
+
+.imagem-sobre {
+  float: right;
+  width: 40%;
+}
+
+/* =============  ? ========================= */
+
+/* =============  FOOTER ========================= */
+#conteudo-footer {
+  clear: both;
+  border-top: 0.4px solid #fff2e7;
+  text-align: center;
+  padding: 15px;
+}
+
+.conteudo-footer-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+a:link,
+a:visited {
+  color: hsl(0, 0%, 0%);
+}
+#cabecalho-menu a:hover {
+  background: hsl(27, 31%, 54%);
+  color: rgb(255, 255, 255);
+}
+
+#conteudo-footer a:hover {
+  background: hsl(27, 31%, 54%);
+  color: rgb(255, 255, 255);
+}
+
+.copyright {
+  text-align: center;
+}
